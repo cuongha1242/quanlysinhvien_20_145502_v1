@@ -1,0 +1,2 @@
+MSSV: 20223729 - Sinh vien: Tran Dinh Quan - Lop: 04 - Diem Ky Thuat lap trinh C++: 3 - Diem XSTK: 3 - Diem Vat Ly: 4 - Diem TB: 3.33333
+MSSV: 0 - Sinh vien: 0 - Lop: 0 - Diem Ky Thuat lap trinh C++: 0 - Diem XSTK: 0 - Diem Vat Ly: 1 - Diem TB: 0.333333
