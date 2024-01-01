@@ -2,7 +2,7 @@
 
 int main() {
     QuanLySinhVien quanLySinhVien;
-
+    label1:
     int chon1;
     do {
         cout << "Ban la ai?" << endl;
@@ -16,6 +16,32 @@ int main() {
         case 0:
             return 0;
             break;
+        case 1:
+            int chon3;
+            do {
+                cout << "0. Thoat" << endl;
+                cout << "1. Tim thong tin cua ban" << endl;
+                cout << "2. Quay lai" << endl;
+                cin >> chon3;
+                ofstream outfile;
+                switch (chon3) 
+                {
+                case 0:
+                        return 0;
+                        break;
+                case 1:
+                        quanLySinhVien.timSinhVien(cout);
+                        system("pause");
+                        break;
+                case 2:
+                    goto label1;
+                    break;
+                default:
+                    cout << "Ban chon sai!";
+
+                    break;
+                }
+            } while (chon3 != 0);
         case 2:
             int maCanBo;
             cout << "Nhap ma can bo: ";
@@ -27,26 +53,7 @@ int main() {
                 goto label2;
             }
             else {
-               int count1;
-               do {
-                   switch (count1)
-                   {
-                   case 1:
-                       cout << "Nhap lai ma so can bo!" << endl;
-                       count1++;
-                       
-                   case 2:
-                       cout << "Nhap lai ma so can bo!" << endl;
-                   case 3:
-                       cout << "Nhap lai ma so can bo!" << endl;
-                   default:
-                       break;
-                   }
-               }while(count1 == 3)
-               
-               if (count1 > 3) {
-                   break;
-               }
+               break;
 
             }
             
@@ -66,7 +73,7 @@ int main() {
                 cout << "6. Tim sinh vien co diem trung binh thap nhat" << endl;
                 cout << "7. Tim sinh vien theo MSSV" << endl;
                 cout << "8. So luong sinh vien" << endl;
-
+                cout << "9. Quay lai" << endl;
                 cin >> chon;
 
                 ofstream outfile;
@@ -107,6 +114,9 @@ int main() {
                     quanLySinhVien.soluongSinhVien();
                     system("pause");
                     break;
+                case 9:
+                    goto label1;
+                    break;
                 default:
                     cout << "Ban chon sai" << endl;
                     system("pause");
@@ -123,6 +133,33 @@ int main() {
 
             } while (chon != 0);
             return 0;
+        case 3:
+            int chon4;
+            do {
+                cout << "0. Thoat" << endl;
+                cout << "1. Tim thong tin cua con ban" << endl;
+                cout << "2. Quay lai" << endl;
+                cin >> chon4;
+                ofstream outfile;
+                switch (chon4)
+                {
+                case 0:
+                    return 0;
+                    break;
+                case 1:
+                    quanLySinhVien.timSinhVien(cout);
+                    system("pause");
+                    break;
+                case 2:
+                    goto label1;
+                    break;
+                default:
+                    cout << "Ban chon sai!";
+
+                    break;
+                }
+            } while (chon3 != 0);
+
         }
 
 

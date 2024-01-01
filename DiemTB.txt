@@ -1,2 +1,1 @@
-MSSV: 20223729 - Sinh vien: q - Lop: 4 - Diem Ky Thuat lap trinh C++: 10 - Diem XSTK: 1 - Diem Vat Ly: 1 - Diem TB: 4
 MSSV: 20223893 - Sinh vien: c - Lop: 4 - Diem Ky Thuat lap trinh C++: 10 - Diem XSTK: 10 - Diem Vat Ly: 10 - Diem TB: 10
