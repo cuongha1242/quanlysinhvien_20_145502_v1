@@ -48,7 +48,7 @@ void SinhVien::nhap() {
 }
 
 void SinhVien::xuat(ostream& os) {
-    os << "MSSV: " << id << " - Sinh vien: " << hoTen << " - Lop: " << lop << " - Diem Ky Thuat lap trinh C++: " << diemKTLT << " - Diem XSTK: " << diemXSTK << " - Diem Vat Ly: " << diemVL << " - Diem TB: " << diemTrungBinh() << endl;
+    os << "MSSV: " << id << " - Sinh vien: " << hoTen << " - Lop: " << lop << " - Diem Ky Thuat lap trinh C++: " << diemKTLT << " SDT KTLT: " <<  sdtKTLT << " - Diem XSTK: " << diemXSTK <<" SDT XSTK:  " << sdtXSTK << " - Diem Vat Ly : " << diemVL << " SDT VL:  " << sdtVL << " - Diem TB : " << diemTrungBinh() << endl;
 }
 
 float SinhVien::diemTrungBinh() {

@@ -1,1 +1,2 @@
-MSSV: 20223893 - Sinh vien: c - Lop: 4 - Diem Ky Thuat lap trinh C++: 10 - Diem XSTK: 10 - Diem Vat Ly: 10 - Diem TB: 10
+MSSV: 2022 - Sinh vien: ngguyen van a - Lop: 1 - Diem Ky Thuat lap trinh C++: 8 SDT KTLT: 5349 - Diem XSTK: 9 SDT XSTK:  123456 - Diem Vat Ly : 10 SDT VL:  234567 - Diem TB : 9
+MSSV: 2023 - Sinh vien: nguyen van b - Lop: 2 - Diem Ky Thuat lap trinh C++: 9 SDT KTLT: 5349 - Diem XSTK: 8 SDT XSTK:  123456 - Diem Vat Ly : 7 SDT VL:  234567 - Diem TB : 8

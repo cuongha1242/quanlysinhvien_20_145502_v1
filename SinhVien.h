@@ -13,8 +13,11 @@ private:
     string hoTen;
     string lop;
     float diemKTLT;
+    float sdtKTLT = 012345;
     float diemXSTK;
+    float sdtXSTK = 123456;
     float diemVL;
+    float sdtVL = 234567;
 public:
     SinhVien();
     void nhap();
